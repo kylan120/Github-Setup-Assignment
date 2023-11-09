@@ -24,6 +24,9 @@
                     </a>
                 </li>
             }
+            <a asp-controller="Product" asp-action="List" asp-route-id="Strings" class="list-group-item
+                @(ViewBag.SelectedCategoryName == "Strings" ? "active" : "")"> Strings
+            </a>
         </ul>
     </div>
 
